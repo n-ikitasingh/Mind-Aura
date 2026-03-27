@@ -24,7 +24,7 @@ function generateAIResponse(
 
   // ---------- Priority topics ----------
   // 1. Suicidal thoughts / crisis
-  if (lower.includes('suicide') || lower.includes('kill myself') || lower.includes('end my life') ||
+  if (lower.includes('suicide') || lower.includes('kill myself') || lower.includes('end my life') || lower.includes('suicidal') ||lower.includes('difficult') ||
       lower.includes('want to die') || lower.includes('no reason to live') || lower.includes('can\'t go on')) {
     return `I'm really glad you reached out. You are not alone, and there is help available. Please consider using the SOS feature in MindAura for immediate support, or reach out to a crisis helpline. If you're in immediate danger, please contact emergency services. You matter. 💙`;
   }
